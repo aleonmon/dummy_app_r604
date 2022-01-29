@@ -1,3 +1,9 @@
+PATH
+  remote: engines/rails_credentials_manager
+  specs:
+    rails_credentials_manager (0.1.0)
+      rails (~> 6.0.4, >= 6.0.4.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -210,6 +216,7 @@ DEPENDENCIES
   listen (~> 3.2)
   puma (~> 4.1)
   rails (~> 6.0.4, >= 6.0.4.4)
+  rails_credentials_manager!
   sass-rails (>= 6)
   selenium-webdriver
   spring
